@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-db570ae62932a1cae89f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "imu_tools",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_calibrator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_calibrator-12f9c8d206342789b182.json",
+					"name" : "imu_calibrator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_publisher-ad9d133e154dd0935318.json",
+					"name" : "imu_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_tools_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_tools_uninstall-d81e8a031bf5b372b8b0.json",
+					"name" : "imu_tools_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serialib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serialib-a3559949c44721987fa5.json",
+					"name" : "serialib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4d26a804acb350305e36.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivan/ros2_ws/src/imu_tools/build/imu_tools",
+		"source" : "/home/ivan/ros2_ws/src/imu_tools"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

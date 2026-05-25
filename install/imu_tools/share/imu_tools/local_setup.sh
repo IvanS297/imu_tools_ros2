@@ -1,0 +1,1 @@
+/home/ivan/ros2_ws/src/imu_tools/build/imu_tools/ament_cmake_environment_hooks/local_setup.sh

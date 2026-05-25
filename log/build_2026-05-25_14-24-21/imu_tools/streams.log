@@ -1,0 +1,89 @@
+[0.032s] Invoking command in '/home/ivan/ros2_ws/src/imu_tools/build/imu_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/serial_motor_demo:/home/ivan/ros2_ws/install/frontier_exploration:/home/ivan/ros2_ws/install/arduino_joystick:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ivan/ros2_ws/src/imu_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/src/imu_tools/install/imu_tools
+[0.290s] -- The C compiler identification is GNU 13.3.0
+[0.636s] -- The CXX compiler identification is GNU 13.3.0
+[0.684s] -- Detecting C compiler ABI info
+[0.929s] -- Detecting C compiler ABI info - done
+[0.950s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.951s] -- Detecting C compile features
+[0.952s] -- Detecting C compile features - done
+[0.980s] -- Detecting CXX compiler ABI info
+[1.236s] -- Detecting CXX compiler ABI info - done
+[1.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.260s] -- Detecting CXX compile features
+[1.261s] -- Detecting CXX compile features - done
+[1.280s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.669s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.864s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.041s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.201s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.249s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.605s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.659s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.808s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.824s] -- Found rmw_zenoh_cpp: 0.2.9 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[2.827s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[3.040s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[3.056s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.366s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.366s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ivan/ros2_ws/src/imu_tools/include>
+[3.367s] -- Configured cppcheck exclude dirs and/or files: 
+[3.371s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.371s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.376s] -- Added test 'lint_cmake' to check CMake code style
+[3.380s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.396s] -- Added test 'uncrustify' to check C / C++ code style
+[3.396s] -- Configured uncrustify additional arguments: 
+[3.400s] -- Added test 'xmllint' to check XML markup files
+[3.408s] -- Configuring done (3.4s)
+[3.459s] -- Generating done (0.0s)
+[3.480s] -- Build files have been written to: /home/ivan/ros2_ws/src/imu_tools/build/imu_tools
+[3.540s] Invoked command in '/home/ivan/ros2_ws/src/imu_tools/build/imu_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/serial_motor_demo:/home/ivan/ros2_ws/install/frontier_exploration:/home/ivan/ros2_ws/install/arduino_joystick:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ivan/ros2_ws/src/imu_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/src/imu_tools/install/imu_tools
+[3.543s] Invoking command in '/home/ivan/ros2_ws/src/imu_tools/build/imu_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/serial_motor_demo:/home/ivan/ros2_ws/install/frontier_exploration:/home/ivan/ros2_ws/install/arduino_joystick:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ivan/ros2_ws/src/imu_tools/build/imu_tools -- -j8 -l8
+[3.735s] [ 16%] [32mBuilding CXX object CMakeFiles/serialib.dir/src/serialib.cpp.o[0m
+[4.645s] [ 33%] [32m[1mLinking CXX static library libserialib.a[0m
+[5.069s] [ 33%] Built target serialib
+[5.140s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_calibrator.dir/src/imu_calibrate.cc.o[0m
+[5.142s] [ 66%] [32mBuilding CXX object CMakeFiles/imu_publisher.dir/src/imu_publisher.cc.o[0m
+[13.234s] [01m[K/home/ivan/ros2_ws/src/imu_tools/src/imu_calibrate.cc:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > imu_calibrator::[01;32m[Kcalibrate_gyro[m[K(const std::vector<double, std::allocator<double> >&)[m[K’:
+[13.235s] [01m[K/home/ivan/ros2_ws/src/imu_tools/src/imu_calibrate.cc:129:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgyro_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.235s]   129 | std::vector<double> imu_calibrator::calibrate_gyro([01;35m[Kconst std::vector<double>& gyro_data[m[K) {
+[13.235s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[13.265s] [01m[K/home/ivan/ros2_ws/src/imu_tools/src/imu_calibrate.cc:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > imu_calibrator::[01;32m[Kcalibrate_accel[m[K(const std::vector<double, std::allocator<double> >&)[m[K’:
+[13.265s] [01m[K/home/ivan/ros2_ws/src/imu_tools/src/imu_calibrate.cc:178:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaccel_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.266s]   178 | std::vector<double> imu_calibrator::calibrate_accel([01;35m[Kconst std::vector<double>& accel_data[m[K) {
+[13.266s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[13.286s] [01m[K/home/ivan/ros2_ws/src/imu_tools/src/imu_calibrate.cc:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > imu_calibrator::[01;32m[Kcalibrate_mag[m[K(const std::vector<double, std::allocator<double> >&)[m[K’:
+[13.286s] [01m[K/home/ivan/ros2_ws/src/imu_tools/src/imu_calibrate.cc:245:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmag_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.286s]   245 | std::vector<double> imu_calibrator::calibrate_mag([01;35m[Kconst std::vector<double>& mag_data[m[K) {
+[13.287s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[21.276s] [ 83%] [32m[1mLinking CXX executable imu_calibrator[0m
+[22.408s] [ 83%] Built target imu_calibrator
+[25.283s] [100%] [32m[1mLinking CXX executable imu_publisher[0m
+[26.176s] [100%] Built target imu_publisher
+[26.212s] Invoked command in '/home/ivan/ros2_ws/src/imu_tools/build/imu_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/serial_motor_demo:/home/ivan/ros2_ws/install/frontier_exploration:/home/ivan/ros2_ws/install/arduino_joystick:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ivan/ros2_ws/src/imu_tools/build/imu_tools -- -j8 -l8
+[26.241s] Invoking command in '/home/ivan/ros2_ws/src/imu_tools/build/imu_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/serial_motor_demo:/home/ivan/ros2_ws/install/frontier_exploration:/home/ivan/ros2_ws/install/arduino_joystick:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ivan/ros2_ws/src/imu_tools/build/imu_tools
+[26.267s] -- Install configuration: ""
+[26.268s] -- Execute custom install script
+[26.270s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/config/imu_config.yaml
+[26.299s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/config/params.yaml
+[26.331s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/launch/imu.launch.py
+[26.368s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/lib/imu_tools/imu_calibrator
+[26.398s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/lib/imu_tools/imu_publisher
+[26.424s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/ament_index/resource_index/package_run_dependencies/imu_tools
+[26.448s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/ament_index/resource_index/parent_prefix_path/imu_tools
+[26.471s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/environment/ament_prefix_path.sh
+[26.492s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/environment/ament_prefix_path.dsv
+[26.527s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/environment/path.sh
+[26.551s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/environment/path.dsv
+[26.574s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/local_setup.bash
+[26.593s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/local_setup.sh
+[26.613s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/local_setup.zsh
+[26.633s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/local_setup.dsv
+[26.657s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/package.dsv
+[26.694s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/ament_index/resource_index/packages/imu_tools
+[26.723s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/cmake/imu_toolsConfig.cmake
+[26.752s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/cmake/imu_toolsConfig-version.cmake
+[26.784s] -- Symlinking: /home/ivan/ros2_ws/src/imu_tools/install/imu_tools/share/imu_tools/package.xml
+[26.813s] Invoked command in '/home/ivan/ros2_ws/src/imu_tools/build/imu_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/serial_motor_demo:/home/ivan/ros2_ws/install/frontier_exploration:/home/ivan/ros2_ws/install/arduino_joystick:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ivan/ros2_ws/src/imu_tools/build/imu_tools

@@ -1,0 +1,35 @@
+imu_publisher:
+  ros__parameters:
+    publish_calibrated: true
+
+    # Serial port
+    serial_port: "/dev/ttyUSB0"
+    baud_rate: 115200
+    buffer_size: 255
+    timer_interval_ms: 10        # публикация ~100 Гц
+
+    # Gyroscope biases (rad/s) — из gCal.txt
+    gyro:
+      offset_x: 0.007514
+      offset_y: 0.005462
+      offset_z: 0.000334
+
+    # Accelerometer — из accCal.txt
+    # формула: calibrated = (raw - offset) / scale
+    accel:
+      offset_x: 0.0
+      offset_y: 0.0
+      offset_z: 0.0
+      scale_x:  1.0
+      scale_y:  1.0
+      scale_z:  1.0
+
+    # Magnetometer — из magCal.txt
+    # формула: calibrated = (raw - offset) * scale
+    mag:
+      offset_x: 0.0
+      offset_y: 0.0
+      offset_z: 0.0
+      scale_x:  1.0
+      scale_y:  1.0
+      scale_z:  1.0
