@@ -13,7 +13,7 @@
  - Настройка параметров в `.yaml` файлах.
  - Установленный `C++20` компилятор.
 
-## Сборка
+## Сборка:
 ```bash
 cd ros2_ws/src/
 git clone https://github.com/IvanS297/imu_tools_ros2.git
@@ -35,3 +35,18 @@ ros2 run imu_tools imu_calibrator
 source install/setup.bash
 ros2 launch imu_tools imu.launch.py
 ```
+
+```bash
+ivan@ivan-HP-EliteBook-745-G6:~$ ros2 topic list
+/imu/data
+/imu/data_raw
+/imu/mag
+/parameter_events
+/rosout
+/tf
+/tf_static
+```
+
+## Другие гайды на калибровку IMU:
+ - https://github.com/IvanS297/IMU_calibration_guide
+ - https://github.com/IvanS297/IMU_Calibration_2
